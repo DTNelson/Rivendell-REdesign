@@ -156,7 +156,6 @@ body {
 
 .carousel {
   overflow: hidden;
-  
   .item img {
     width: 100%;
     height: auto;
@@ -206,25 +205,33 @@ body {
 }
 
 carousel-inner > .item {
-  -webkit-transition: 0.9s ease-in-out left;
-  -moz-transition: 0.9s ease-in-out left;
-  -o-transition: 0.9s ease-in-out left;
-  transition: 0.9s ease-in-out left; 
+  -webkit-transition: 1.3s ease-in-out left;
+  -moz-transition: 1.3s ease-in-out left;
+  -o-transition: 1.3s ease-in-out left;
+  transition: 1.3s ease-in-out left; 
 }
 
-.carousel-inner>.item {
-  -webkit-transition: -webkit-transform .9s ease-in-out;
-  -o-transition: -o-transform .9s ease-in-out;
-  transition: transform .9s ease-in-out;
+.carousel-inner > .item {
+  -webkit-transition: -webkit-transform 1.3s ease-in-out;
+  -o-transition: -o-transform 1.3s ease-in-out;
+  transition: transform 1.3s ease-in-out;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000;
   perspective: 1000;
 } 
-        
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+  max-height: 800px;
+}
+  
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
   color: #f7f7f7;
+}
+
+slider-size {
+  height: 800px;
 }
   
 /* Navigation Links + Navbar Top*/
@@ -297,7 +304,7 @@ a:hover {color: #bc382e;}
 .navbar-collapse.in{overflow-y:hidden;}
 
 .dropdown-menu>li>a {
-  border-radius: 8px;
+  border-radius: 0;
   display:block;
   font-family:"Arimo", "Lato", sans-serif;
   background-color: #f7f7f7;
@@ -305,6 +312,12 @@ a:hover {color: #bc382e;}
   position:relative;
   font-size:16px;
   color: #272727;
+}
+
+ .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  background-color: #df5a48 !important;
+  background-image: none !important;
+  color: #f7f7f7;
 }
  
   @media (max-width: 768px) {
