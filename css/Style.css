@@ -69,12 +69,26 @@ body {
 
 .btn-sm {
   background-color: #DF5A48;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
+  -moz-box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
+  box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
   color: #f7f7f7;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Arimo, Lato, Sans-serif;
-  padding: 6px 6px;
+  padding: 6px;
   background-image: none;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-sm.active, .btn-sm.focus, .btn-sm:active, .btn-sm:focus, .btn-sm:hover, .open>.dropdown-toggle.btn-sm {
+  background-color: #bc382e !important;
+  border-color: #272727 !important;
+  color: #f7f7f7;
 }
 
 /* Hidden Button*/
@@ -152,10 +166,15 @@ body {
   text-align:center;
 }
 
+.quote-text {
+   background-color: rgba(39,39,39,0.7);
+   padding:10px;
+}
+ 
 /* Carousel Styles*/
 
 .carousel {
-  overflow: hidden;
+  overflow: visible;
   .item img {
     width: 100%;
     height: auto;
@@ -163,13 +182,12 @@ body {
 }
 
 .carousel-caption {
-  background-color: rgba(39,39,39,0.7);
   padding: 30px 30px 30px 30px;
   text-align: center;
 }
 
   @media screen and (max-width: 768px){
-  .carousel-caption {font-size: 16px;}
+  .carousel-caption {font-size: 16px; padding: 0;}
    }
   @media screen and (max-width: 600px){
   .carousel-caption {padding: 0;}
@@ -202,6 +220,7 @@ body {
 
 .carousel-inner {
   width: 100%;
+  overflow: visible;
 }
 
 carousel-inner > .item {
@@ -422,22 +441,28 @@ h1 {
   padding-top:70px;
   background-color: #f7f7f7;
 } 
-
+  @media (max-width: 768px) {
+      .page-lt {padding-top:40px;}
+    }
+    
 .page-dk {
   padding-top: 70px;
   background-color: #272727;
 }
+  @media (max-width: 768px) {
+      .page-dk {padding-top:40px;}
+    }
     
 .section-pad {padding-bottom: 50px;}
 
-/* Center headlines*/
+/* Page Headers*/
 
 .page-h1 {
   color: #272727;
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
   font-size: 45px; 
   text-align: center;
-  padding-bottom: 30px;
+  padding: 10px 0 10px 0;
 }
   @media (max-width: 768px) {
       .page-h1 {font-size: 30px;}
@@ -448,7 +473,7 @@ h1 {
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
   font-size: 45px; 
   text-align: center;
-  padding-bottom: 30px;
+  padding: 10px 0 10px 0;
 }
   @media (max-width: 768px) {
       .page-h1-lt {font-size: 30px;}
