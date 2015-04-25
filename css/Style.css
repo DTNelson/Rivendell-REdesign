@@ -186,12 +186,18 @@ body {
   text-align: center;
 }
 
-  @media screen and (max-width: 768px){
-  .carousel-caption {font-size: 16px; padding: 0;}
-   }
-  @media screen and (max-width: 600px){
-  .carousel-caption {padding: 0;}
-   }
+  @media screen and (max-width: 875px){
+  .carousel-caption {
+    font-size: 16px; 
+    padding: 0;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+  }
     
 .carousel-control {
   background-color: transparent;
@@ -202,6 +208,18 @@ body {
   position: absolute;
   bottom: 10px;
 }
+  @media screen and (max-width: 875px){
+  .carousel-indicators {
+    display:block;
+    position: relative;
+    right: 0;
+    bottom: 5px;
+    left: 0%
+    top: 0%;
+    padding-left: 0;
+    padding-bottom: 0;
+    }
+  }
 
 .carousel-indicators .active {
   border: none;
