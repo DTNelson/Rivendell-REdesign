@@ -130,8 +130,8 @@ body {
 .copy-text-lt {
   color: #f7f7f7;
   display:block;
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
-  font-size: 18px;
+  font-family: Arvo, serif;
+  font-size: 16px;
   font-variant:normal;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -209,10 +209,10 @@ body {
   right: 30%;
   left: 30%;
 }
-  @media screen and (max-width: 1080px){
+  @media screen and (max-width: 1160px){
     .carousel-caption {
-    right: 0%;
-    left: 0%;
+    right: 10%;
+    left: 10%;
    }
  }
  
@@ -337,11 +337,14 @@ a:hover {color: #bc382e;}
   background: transparent;
 }
 
-.navbar .brand, .navbar .nav > li > a {
+.navbar .brand, .navbar-inverse .nav > li > a {
     color: #f7f7f7;
     font-family: Arimo, Lato, Helvetica Neue, Sans-serif;
     font-size: 20px;
 } 
+  @media (max-width: 960px){
+    .navbar-inverse .nav > li > a {font-size: 18px;} 
+  }
 
 .navbar .brand, .navbar .nav > li > a:hover {
     color: #DF5A48;
@@ -407,7 +410,6 @@ a:hover {color: #bc382e;}
       text-align: center;
       width: auto;
       }
-     
     
     .nav>li>a {
       display:inline-block;
@@ -437,7 +439,7 @@ a:hover {color: #bc382e;}
 }
     @media (max-width: 768px) {
       .bg {
-        padding: 50px 0px 50px 0px;
+        padding: 50px 0px 50px 20px;
         text-align:center;
         overflow: hidden;
       }
