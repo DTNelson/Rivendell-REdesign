@@ -191,7 +191,8 @@ body {
        padding:10px;
      }
    }
-   
+
+ 
 /* Carousel Styles*/
 
 .carousel {
@@ -478,6 +479,7 @@ h1 {
   font-family: Arvo, Lato, Helvetica Neue, sans-serif;
   font-size: 30px; 
 }
+ 
   @media (max-width: 768px) {
     .h2-dk {font-size: 20px;}
     }
@@ -526,7 +528,17 @@ h1 {
       .page-dk {padding-top:40px;}
     }
     
-.section-pad {padding-bottom: 50px;}
+.page-coral {
+  padding-top: 70px;
+  background-color: #DF5A48;
+  color:#ebebeb;
+}
+
+  @media (max-width: 768px) {
+      .page-dk {padding-top:40px;}
+    }   
+  
+.section-pad {background:transparent; padding-bottom: 50px;}
 
 .section-line {
   background:#292A2D;
@@ -534,6 +546,14 @@ h1 {
   width: 200px;
   margin: 0 auto;
   margin-top: 30px;
+ }
+ 
+.section-line-coral {
+  background-color:#DF5A48;
+  height: 1px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
  }
 
 /* Page Headers*/
