@@ -10,7 +10,6 @@ body {
   font-family: Arimo, Lato, Sans-serif;
   position: relative;
 }
-
  
 /* Button Styles */
 .btn {
@@ -95,13 +94,13 @@ body {
 /* Hidden Button*/
 
 #hidden {
-    display: none;
-    opacity: 0;
+  display: none;
+  opacity: 0;
 }
 
 /* Content Padding*/
 .content-section {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 /* Copy Text (light/dk backgrounds)*/
@@ -133,6 +132,7 @@ body {
   font-family: Arvo, serif;
   font-size: 16px;
   font-variant:normal;
+  line-height: 26px;
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 600px;
@@ -163,6 +163,7 @@ body {
   display: block;
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
   font-size: 16px;
+  line-height: 1.5em;
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 400px; 
@@ -320,6 +321,8 @@ a {color: #DF5A48;}
 
 a:hover {color: #bc382e;}
 
+.navbar{min-height:40px;}
+
 .navbar-inverse {
   background: #292A2D;
   border-color: transparent;
@@ -340,11 +343,12 @@ a:hover {color: #bc382e;}
 
 .navbar .brand, .navbar-inverse .nav > li > a {
     color: #f7f7f7;
-    font-family: Arimo, Lato, Helvetica Neue, Sans-serif;
-    font-size: 20px;
+    font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+    font-size: 16px;
+   
 } 
   @media (max-width: 960px){
-    .navbar-inverse .nav > li > a {font-size: 18px;} 
+    .navbar-inverse .nav > li > a {font-size: 14px;} 
   }
 
 .navbar .brand, .navbar .nav > li > a:hover {
@@ -406,6 +410,7 @@ a:hover {color: #bc382e;}
   @media (max-width: 768px) {
     .dropdown-menu {
       position: relative;
+      font-size:14px;
       float: none;
       padding: 0;
       text-align: center;
