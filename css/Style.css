@@ -4,17 +4,18 @@
 /* HTML & BODY */
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 body { 
   padding-top: 300px; 
-  font-family: Arimo, Lato, Sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   position: relative;
 }
  
 /* Button Styles */
 .btn {
   font-size: 27px;
-  font-family:  Arimo, Lato, Sans-serif;
+  font-family:  'Arimo', 'Lato', sans-serif;
   padding: 12px 12px;
   background-image: none;
 }
@@ -78,7 +79,7 @@ body {
   box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
   color: #f7f7f7;
   font-size: 16px;
-  font-family: Arimo, Lato, Sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   padding: 6px;
   background-image: none;
   margin-top: 10px;
@@ -108,7 +109,7 @@ body {
 .copy-text {
   color: #292A2D;
   display:block;
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   font-size: 18px;
   font-variant:normal;
   margin: 0 auto;
@@ -119,7 +120,7 @@ body {
     .copy-text {
        color: #292A2D;
        display: block;
-       font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+       font-family: 'Arimo', 'Lato', sans-serif;
        font-size: 16px;
        margin-bottom: 10px;
        max-width: 400px;
@@ -129,7 +130,7 @@ body {
 .copy-text-lt {
   color: #f7f7f7;
   display:block;
-  font-family: Arvo, serif;
+  font-family: 'Arvo', serif;
   font-size: 16px;
   font-variant:normal;
   line-height: 26px;
@@ -141,7 +142,7 @@ body {
     .copy-text-lt {
        color: #292A2D;
        display: block;
-       font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+       font-family: 'Arimo', 'Lato', sans-serif;
        font-size: 16px;
        margin-bottom: 10px;
        max-width: 400px;
@@ -151,7 +152,7 @@ body {
 .copy-text-dk {
   color: #292A2D;
   display:block;
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   font-size: 18px;
   font-variant: normal;
   margin: 0 auto;
@@ -161,7 +162,7 @@ body {
 .bio-text {
   color: #F7f7f7;                                        
   display: block;
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   margin: 0 auto;
@@ -172,7 +173,7 @@ body {
 
 #collapse-bio {
   color: #F7f7f7;                                        
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   font-size: 16px;
   position: relative;
   margin: 0 auto;
@@ -343,7 +344,7 @@ a:hover {color: #bc382e;}
 
 .navbar .brand, .navbar-inverse .nav > li > a {
     color: #f7f7f7;
-    font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+    font-family: 'Arimo', 'Lato', sans-serif;
     font-size: 16px;
    
 } 
@@ -393,7 +394,7 @@ a:hover {color: #bc382e;}
 .dropdown-menu>li>a {
   border-radius: 0;
   display:block;
-  font-family:"Arimo", "Lato", sans-serif;
+  font-family:'Arimo', 'Lato', sans-serif;
   background-color: #f7f7f7;
   padding: 5px 20px 5px 20px;
   position:relative;
@@ -461,7 +462,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: Arvo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 45px; 
   font-variant: small-caps;
 }
@@ -472,7 +473,7 @@ h1 {
 
 .subhead {
    font-size: 25px;
-   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+   font-family: 'Arimo', 'Lato', sans-serif;
    color: #f7f7f7
 }
   @media (max-width: 768px) {
@@ -481,7 +482,7 @@ h1 {
 
 .h2-dk {
   color: #292A2D;
-  font-family: Arvo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 30px; 
 }
  
@@ -491,7 +492,7 @@ h1 {
 
 .h2-lt {
   color: #f7f7f7;
-  font-family: Arvo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 30px;
   padding-top: 20px;
 }
@@ -565,7 +566,7 @@ h1 {
 
 .page-h1 {
   color: #292A2D;
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   font-size: 45px; 
   text-align: center;
   padding: 10px 0 10px 0;
@@ -576,7 +577,7 @@ h1 {
     
 .page-h1-lt {
   color: #f7f7f7;
-  font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+  font-family: 'Arimo', 'Lato', sans-serif;
   font-size: 45px; 
   text-align: center;
   padding: 10px 0 10px 0;
