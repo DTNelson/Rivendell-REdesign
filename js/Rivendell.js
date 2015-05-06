@@ -78,5 +78,15 @@ $(document).ready(function() {
             $('#quote-4').fadeToggle( "slow" );
         }
     });
+	
+	$('#hide-btn-5').on('click', function () {
+        if ($('#quote-5').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-5').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-5').fadeToggle( "slow" );
+        }
+    });
 });
 
