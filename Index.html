@@ -309,47 +309,9 @@
 			</p>
 		  </div><!--column-->
 		</div><!--row-->
-  
-  <!-- Email Form - look up 'php email form'-->
-	<form id="form" class="form-horizontal" role="form" action="#" method="post">
-      <fieldset>
-        
-		<!-- Name Text input-->
-		<div class="form-group">
-          <label class="col-md-2 control-label col-md-offset-2" for="formname">Your name</label>  
-		  <div class="col-md-4">
-            <input id="textinput" name="formname" type="text" placeholder="Please provide your full name." class="form-control input-md" required> 
-          </div><!--end col-md-4-->
-		</div><!--end form-group name-->
-       
-	   <!-- Email Text input-->
-        <div class="form-group">
-		  <label class="col-md-2 control-label col-md-offset-2" for="formemail">Your e-mail address</label>
-		  <div class="col-md-4">
-            <input id="email-input" name="formemail" type="email" placeholder="Please provide your e-mail address." class="form-control input-md" required>  
-          </div><!--end col-md-4-->
-		</div><!--end form-group email-->
-        
-		<!-- Message Text input -->
-        <div class="form-group">
-          <label class="col-md-2 control-label col-md-offset-2" for="msg">Your message</label>
-          <div class="col-md-4">                     
-            <textarea class="form-control" id="msg" name="msg">How can we help you?</textarea>
-          </div><!-- end col-md-4-->
-        </div><br><br><!--end form-group message-->
-        
-        <!-- Send form Button -->
-        <div class="form-group">
-          <label class="col-md-2 control-label col-md-offset-2" for="sendmail"></label>
-          <div class="col-md-4">
-            <button type="submit" formaction="#" id="sendmail" name="sendmail" class="btn btn-send">SEND</button>
-          </div><!-- end col-md-4-->
-        </div><!--end form-group send button-->
-	  </fieldset>
-    </form>
-	  <?php include "form/Rivendell_email_code.php"?>
-	  <div class="section-pad"></div>
-	</div><!--container-->
+		<iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.us/form/51276543578161?nojump" frameborder="0" style="width:100%; height:616px; border:none;" scrolling="no"></iframe>
+<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;case "collapseErrorPage":if (iframe.clientHeight > window.innerHeight) {iframe.style.height = window.innerHeight + "px";}break;case "reloadPage":window.location.reload();break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
+		</div><!--container-->
   </section>
   
 <!--FOOTER SECTION>--> 
