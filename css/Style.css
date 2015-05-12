@@ -4,6 +4,7 @@
 /* HTML & BODY */
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(http://fonts.googleapis.com/css?family=Arvo);
+<<<<<<< HEAD
 
 body { 
   padding-top: 300px; 
@@ -15,6 +16,20 @@ body {
 .btn {
   font-size: 27px;
   font-family:  Arimo, Lato, Sans-serif;
+=======
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body { 
+  padding-top: 300px; 
+  font-family: 'Arimo', 'Lato', sans-serif;
+  position: relative;
+}
+ 
+/* Button Styles */
+.btn {
+  font-size: 27px;
+  font-family:  'Arimo', 'Lato', sans-serif;
+>>>>>>> gh-pages
   padding: 12px 12px;
   background-image: none;
 }
@@ -22,7 +37,11 @@ body {
 .btn-primary {
   background-image: none !important;
   background-color: #DF5A48;
+<<<<<<< HEAD
   border-color: #272727 !important;
+=======
+  border-color: #292A2D !important;
+>>>>>>> gh-pages
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -khtml-border-radius: 10px;
@@ -34,7 +53,11 @@ body {
 
 .btn-primary.active, .btn-primary:active {
   background-color: #DF5A48 !important;
+<<<<<<< HEAD
   border-color: #272727 !important;
+=======
+  border-color: #292A2D !important;
+>>>>>>> gh-pages
 }
 
 .btn-primary:focus, .btn-primary:hover {
@@ -43,7 +66,11 @@ body {
  
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
   background-color: #bc382e !important;
+<<<<<<< HEAD
   border-color: #272727 !important;
+=======
+  border-color: #292A2D !important;
+>>>>>>> gh-pages
 }
 
 .btn-send {
@@ -51,7 +78,11 @@ body {
   background-color: #299e48;
   color: #f7f7f7;
   width: 200px;
+<<<<<<< HEAD
   border-color: #272727 !important;
+=======
+  border-color: #292A2D !important;
+>>>>>>> gh-pages
    -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -khtml-border-radius: 10px;
@@ -63,44 +94,87 @@ body {
 
 .btn-send.active, .btn-send.focus, .btn-send:active, .btn-send:focus, .btn-send:hover, .open>.dropdown-toggle.btn-send {
   background-color: #1b5e2a !important;
+<<<<<<< HEAD
   border-color: #272727 !important;
+=======
+  border-color: #292A2D !important;
+>>>>>>> gh-pages
   color: #f7f7f7;
 }
 
 .btn-sm {
   background-color: #DF5A48;
+<<<<<<< HEAD
   color: #f7f7f7;
   font-size: 14px;
   font-family: Arimo, Lato, Sans-serif;
   padding: 6px 6px;
   background-image: none;
   margin-top: 10px;
+=======
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
+  -moz-box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
+  box-shadow : inset 2px 2px 2px rgba(255,255,255,0.3);
+  color: #f7f7f7;
+  font-size: 16px;
+  font-family: 'Arimo', 'Lato', sans-serif;
+  padding: 6px;
+  background-image: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-sm.active, .btn-sm.focus, .btn-sm:active, .btn-sm:focus, .btn-sm:hover, .open>.dropdown-toggle.btn-sm {
+  background-color: #bc382e !important;
+  border-color: #292A2D !important;
+  color: #f7f7f7;
+>>>>>>> gh-pages
 }
 
 /* Hidden Button*/
 
 #hidden {
+<<<<<<< HEAD
     display: none;
     opacity: 0;
+=======
+  display: none;
+  opacity: 0;
+>>>>>>> gh-pages
 }
 
 /* Content Padding*/
 .content-section {
+<<<<<<< HEAD
     padding-top: 100px;
+=======
+  padding-top: 100px;
+>>>>>>> gh-pages
 }
 
 /* Copy Text (light/dk backgrounds)*/
 
 .copy-text {
+<<<<<<< HEAD
   color: #272727;
   display:block;
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+=======
+  color: #292A2D;
+  display:block;
+  font-family: 'Arimo', 'Lato', sans-serif;
+>>>>>>> gh-pages
   font-size: 18px;
   font-variant:normal;
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 400px;
 }
+<<<<<<< HEAD
 
 .copy-text-lt {
   color: #f7f7f7;
@@ -108,23 +182,60 @@ body {
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
   font-size: 18px;
   font-variant:normal;
+=======
+  @media screen and (max-width: 768px){
+    .copy-text {
+       color: #292A2D;
+       display: block;
+       font-family: 'Arimo', 'Lato', sans-serif;
+       font-size: 16px;
+       margin-bottom: 10px;
+       max-width: 400px;
+     }
+   }
+   
+.copy-text-lt {
+  color: #f7f7f7;
+  display:block;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  font-variant:normal;
+  line-height: 26px;
+>>>>>>> gh-pages
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 600px;
 }
+<<<<<<< HEAD
   @media screen and (max-width: 768px){
     .copy-text-lt {
        color: #f7f7f7;
        display: block;
        font-family: Arimo, Lato, Helvetica Neue, sans-serif;
        font-size: 14px;
+=======
+  @media screen and (max-width: 875px){
+    .copy-text-lt {
+       color: #292A2D;
+       display: block;
+       font-family: 'Arimo', 'Lato', sans-serif;
+       font-size: 16px;
+       margin-bottom: 10px;
+       max-width: 400px;
+>>>>>>> gh-pages
      }
    }
     
 .copy-text-dk {
+<<<<<<< HEAD
   color: #272727;
   display:block;
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+=======
+  color: #292A2D;
+  display:block;
+  font-family: 'Arimo', 'Lato', sans-serif;
+>>>>>>> gh-pages
   font-size: 18px;
   font-variant: normal;
   margin: 0 auto;
@@ -134,8 +245,14 @@ body {
 .bio-text {
   color: #F7f7f7;                                        
   display: block;
+<<<<<<< HEAD
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
   font-size: 16px;
+=======
+  font-family: 'Arimo', 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+>>>>>>> gh-pages
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 400px; 
@@ -144,7 +261,11 @@ body {
 
 #collapse-bio {
   color: #F7f7f7;                                        
+<<<<<<< HEAD
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
+=======
+  font-family: 'Arimo', 'Lato', sans-serif;
+>>>>>>> gh-pages
   font-size: 16px;
   position: relative;
   margin: 0 auto;
@@ -152,11 +273,32 @@ body {
   text-align:center;
 }
 
+<<<<<<< HEAD
 /* Carousel Styles*/
 
 .carousel {
   overflow: hidden;
   
+=======
+.quote-text {
+   background-color: rgba(0,0,0,0.6);
+   color: #f7f7f7;
+   padding:10px;
+}
+   @media screen and (max-width: 875px){
+    .quote-text {
+       background-color: #f7f7f7;
+       color: #292A2D;
+       padding:10px;
+     }
+   }
+
+ 
+/* Carousel Styles*/
+
+.carousel {
+  overflow: visible;
+>>>>>>> gh-pages
   .item img {
     width: 100%;
     height: auto;
@@ -164,6 +306,7 @@ body {
 }
 
 .carousel-caption {
+<<<<<<< HEAD
   background-color: rgba(39,39,39,0.7);
   padding: 30px 30px 30px 30px;
   text-align: center;
@@ -175,16 +318,76 @@ body {
   @media screen and (max-width: 600px){
   .carousel-caption {padding: 0;}
    }
+=======
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+  text-shadow: none;
+  right: 30%;
+  left: 30%;
+}
+  @media screen and (max-width: 1160px){
+    .carousel-caption {
+    right: 10%;
+    left: 10%;
+   }
+ }
+ 
+  @media screen and (max-width: 875px){
+  .carousel-caption {
+    font-size: 16px; 
+    padding: 0;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+  }
+>>>>>>> gh-pages
     
 .carousel-control {
   background-color: transparent;
   color: #f7f7f7;
+<<<<<<< HEAD
+=======
+  text-shadow: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 30%;
+>>>>>>> gh-pages
 }
 
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
 }
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 875px){
+  .carousel-indicators {
+    display:block;
+    position: relative;
+    right: 0;
+    bottom: 5px;
+    left: 0%
+    top: 0%;
+    padding-left: 0;
+    padding-bottom: 0;
+    }
+  }
+>>>>>>> gh-pages
 
 .carousel-indicators .active {
   border: none;
@@ -197,12 +400,18 @@ body {
 .carousel-indicators li {
   width: 18px;
   height: 18px;
+<<<<<<< HEAD
   background-color: #fff;
   border: none;
+=======
+  background-color: #f7f7f7;
+  border-color: #292A2D !important;
+>>>>>>> gh-pages
 }
 
 .carousel-inner {
   width: 100%;
+<<<<<<< HEAD
 }
 
 carousel-inner > .item {
@@ -222,10 +431,40 @@ carousel-inner > .item {
   perspective: 1000;
 } 
         
+=======
+  overflow: visible;
+}
+
+carousel-inner > .item {
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left; 
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+  max-height: 800px;
+  width: 100%;
+  margin:auto;
+}
+   @media (max-width: 768px) {
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      max-height: 400px;
+      }
+    }
+      
+>>>>>>> gh-pages
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
   color: #f7f7f7;
 }
+<<<<<<< HEAD
+=======
+
+.slider-size {
+  height: 800px;
+}
+>>>>>>> gh-pages
   
 /* Navigation Links + Navbar Top*/
 
@@ -233,8 +472,15 @@ a {color: #DF5A48;}
 
 a:hover {color: #bc382e;}
 
+<<<<<<< HEAD
 .navbar-inverse {
   background: #272727;
+=======
+.navbar{min-height:40px;}
+
+.navbar-inverse {
+  background: #292A2D;
+>>>>>>> gh-pages
   border-color: transparent;
   opacity: 0.90;
 }
@@ -251,11 +497,23 @@ a:hover {color: #bc382e;}
   background: transparent;
 }
 
+<<<<<<< HEAD
 .navbar .brand, .navbar .nav > li > a {
     color: #f7f7f7;
     font-family: Arimo, Lato, Helvetica Neue, Sans-serif;
     font-size: 20px;
 } 
+=======
+.navbar .brand, .navbar-inverse .nav > li > a {
+    color: #f7f7f7;
+    font-family: 'Arimo', 'Lato', sans-serif;
+    font-size: 16px;
+   
+} 
+  @media (max-width: 960px){
+    .navbar-inverse .nav > li > a {font-size: 14px;} 
+  }
+>>>>>>> gh-pages
 
 .navbar .brand, .navbar .nav > li > a:hover {
     color: #DF5A48;
@@ -271,7 +529,11 @@ a:hover {color: #bc382e;}
 .navbar-inverse .nav-justified > .open > a:hover,
 .navbar-inverse .nav-justified > .open > a:focus {
   color: #fff;
+<<<<<<< HEAD
   background-color: #333333;
+=======
+  background-color: #292A2D;
+>>>>>>> gh-pages
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -297,19 +559,38 @@ a:hover {color: #bc382e;}
 .navbar-collapse.in{overflow-y:hidden;}
 
 .dropdown-menu>li>a {
+<<<<<<< HEAD
   border-radius: 8px;
   display:block;
   font-family:"Arimo", "Lato", sans-serif;
+=======
+  border-radius: 0;
+  display:block;
+  font-family:'Arimo', 'Lato', sans-serif;
+>>>>>>> gh-pages
   background-color: #f7f7f7;
   padding: 5px 20px 5px 20px;
   position:relative;
   font-size:16px;
   color: #272727;
 }
+<<<<<<< HEAD
+=======
+
+ .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  background-color: #df5a48 !important;
+  background-image: none !important;
+  color: #f7f7f7;
+}
+>>>>>>> gh-pages
  
   @media (max-width: 768px) {
     .dropdown-menu {
       position: relative;
+<<<<<<< HEAD
+=======
+      font-size:14px;
+>>>>>>> gh-pages
       float: none;
       padding: 0;
       text-align: center;
@@ -321,7 +602,11 @@ a:hover {color: #bc382e;}
       } 
     
     .navbar-inverse {
+<<<<<<< HEAD
       background: #272727;
+=======
+      background: #292A2D;
+>>>>>>> gh-pages
       opacity: 1.0;
       }
     }
@@ -344,7 +629,11 @@ a:hover {color: #bc382e;}
 }
     @media (max-width: 768px) {
       .bg {
+<<<<<<< HEAD
         padding: 50px 0px 50px 0px;
+=======
+        padding: 50px 0px 50px 20px;
+>>>>>>> gh-pages
         text-align:center;
         overflow: hidden;
       }
@@ -360,6 +649,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+<<<<<<< HEAD
   font-family: Arvo, Lato, Helvetica Neue, sans-serif;
   font-size: 45px; 
   font-variant: small-caps;
@@ -367,11 +657,24 @@ h1 {
    @media (max-width: 768px) {
       h1 {font-size: 30px;}
       h2 {font-size: 20px;}
+=======
+  font-family: 'Arvo', serif;
+  font-size: 45px; 
+  font-variant: small-caps;
+}
+   @media (max-width: 875px) {
+      h1 {font-size: 30px;}
+      h2 {font-size: 20px; color: #292A2D;}
+>>>>>>> gh-pages
     }
 
 .subhead {
    font-size: 25px;
+<<<<<<< HEAD
    font-family: Arvo, Lato, Helvetica Neue, sans-serif;
+=======
+   font-family: 'Arimo', 'Lato', sans-serif;
+>>>>>>> gh-pages
    color: #f7f7f7
 }
   @media (max-width: 768px) {
@@ -379,17 +682,29 @@ h1 {
     }
 
 .h2-dk {
+<<<<<<< HEAD
   color: #272727;
   font-family: Arvo, Lato, Helvetica Neue, sans-serif;
   font-size: 30px; 
 }
+=======
+  color: #292A2D;
+  font-family: 'Arvo', serif;
+  font-size: 30px; 
+}
+ 
+>>>>>>> gh-pages
   @media (max-width: 768px) {
     .h2-dk {font-size: 20px;}
     }
 
 .h2-lt {
   color: #f7f7f7;
+<<<<<<< HEAD
   font-family: Arvo, Lato, Helvetica Neue, sans-serif;
+=======
+  font-family: 'Arvo', serif;
+>>>>>>> gh-pages
   font-size: 30px;
   padding-top: 20px;
 }
@@ -404,11 +719,17 @@ h1 {
     text-align: left;
 }
 
+<<<<<<< HEAD
 /* Pages (Sections) */
+=======
+/* Pages (Sections) backgrounds */
+
+>>>>>>> gh-pages
 .page-lt {
   padding-top:70px;
   background-color: #f7f7f7;
 } 
+<<<<<<< HEAD
 
 .page-dk {
   padding-top: 70px;
@@ -425,6 +746,65 @@ h1 {
   font-size: 45px; 
   text-align: center;
   padding-bottom: 30px;
+=======
+  @media (max-width: 768px) {
+      .page-lt {padding-top:40px;}
+    }
+    
+.page-lt-gray {
+  padding-top:70px;
+  background-color: #ebebeb;
+} 
+
+  @media (max-width: 768px) {
+      .page-lt-gray {padding-top:40px;}
+    }
+        
+.page-dk {
+  padding-top: 70px;
+  background-color: #292A2D;
+}
+  @media (max-width: 768px) {
+      .page-dk {padding-top:40px;}
+    }
+    
+.page-coral {
+  padding-top: 70px;
+  background-color: #DF5A48;
+  color:#ebebeb;
+}
+
+  @media (max-width: 768px) {
+      .page-dk {padding-top:40px;}
+    }   
+  
+.section-pad {background:transparent; padding-bottom: 50px;}
+
+.section-line {
+  background:#292A2D;
+  height: 1px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+ }
+ 
+.section-line-coral {
+  background-color:#DF5A48;
+  height: 1px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+ }
+
+/* Page Headers*/
+
+.page-h1 {
+  color: #292A2D;
+  font-family: 'Arimo', 'Lato', sans-serif;
+  font-size: 45px; 
+  text-align: center;
+  padding: 10px 0 10px 0;
+>>>>>>> gh-pages
 }
   @media (max-width: 768px) {
       .page-h1 {font-size: 30px;}
@@ -432,10 +812,17 @@ h1 {
     
 .page-h1-lt {
   color: #f7f7f7;
+<<<<<<< HEAD
   font-family: Arimo, Lato, Helvetica Neue, sans-serif;
   font-size: 45px; 
   text-align: center;
   padding-bottom: 30px;
+=======
+  font-family: 'Arimo', 'Lato', sans-serif;
+  font-size: 45px; 
+  text-align: center;
+  padding: 10px 0 10px 0;
+>>>>>>> gh-pages
 }
   @media (max-width: 768px) {
       .page-h1-lt {font-size: 30px;}
@@ -468,7 +855,11 @@ textarea.form-control {
   color:#f7f7f7;
   padding: 20px 0 20px 0;
   font-size: 16px;
+<<<<<<< HEAD
   background-color: #272727;
+=======
+  background-color: #292A2D;
+>>>>>>> gh-pages
 }
 
 footer a {

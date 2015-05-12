@@ -39,6 +39,7 @@ $(document).ready(function() {
 		}
 	});
 	
+<<<<<<< HEAD
 	//Fade-out Carousel-caption
 	$("#hide-btn").click(function(){
 	  $("#carousel-img1").fadeOut(1000);
@@ -46,5 +47,56 @@ $(document).ready(function() {
 	  $("#carousel-img3").fadeOut(1000);
 	});
 	
+=======
+	 $('#hide-btn-1').on('click', function () {
+        if ($('#quote-1').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-1').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-1').fadeToggle( "slow" );
+        }
+    });
+	
+	 $('#hide-btn-2').on('click', function () {
+        if ($('#quote-2').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-2').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-2').fadeToggle( "slow" );
+        }
+    });
+	
+	 $('#hide-btn-3').on('click', function () {
+        if ($('#quote-3').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-3').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-3').fadeToggle( "slow" );
+        }
+    });
+	
+	$('#hide-btn-4').on('click', function () {
+        if ($('#quote-4').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-4').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-4').fadeToggle( "slow" );
+        }
+    });
+	
+	$('#hide-btn-5').on('click', function () {
+        if ($('#quote-5').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-5').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-5').fadeToggle( "slow" );
+        }
+    });
+>>>>>>> gh-pages
 });
 
