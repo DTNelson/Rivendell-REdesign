@@ -194,6 +194,11 @@ body {
      }
    }
 
+ .img-circle {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
  
 /* Carousel Styles*/
 
@@ -534,16 +539,6 @@ h1 {
       .page-dk {padding-top:40px;}
     }
     
-.page-coral {
-  padding-top: 70px;
-  background-color: #DF5A48;
-  color:#ebebeb;
-}
-
-  @media (max-width: 768px) {
-      .page-dk {padding-top:40px;}
-    }   
-  
 .section-pad {background:transparent; padding-bottom: 50px;}
 
 .section-line {
