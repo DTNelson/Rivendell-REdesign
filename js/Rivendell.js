@@ -58,8 +58,8 @@ $(document).ready(function() {
             $('#quote-2').fadeToggle( "slow" );
         }
     });
-	
-	 $('#hide-btn-3').on('click', function () {
+    
+    $('#hide-btn-3').on('click', function () {
         if ($('#quote-3').is(':visible')) {
             $(this).text('Show Quote');
             $('#quote-3').fadeToggle( "slow" );
@@ -69,7 +69,7 @@ $(document).ready(function() {
         }
     });
 	
-	$('#hide-btn-4').on('click', function () {
+	 $('#hide-btn-4').on('click', function () {
         if ($('#quote-4').is(':visible')) {
             $(this).text('Show Quote');
             $('#quote-4').fadeToggle( "slow" );
@@ -96,6 +96,16 @@ $(document).ready(function() {
         } else {
             $(this).text("Hide Quote");
             $('#quote-6').fadeToggle( "slow" );
+        }
+    });
+	
+	$('#hide-btn-7').on('click', function () {
+        if ($('#quote-7').is(':visible')) {
+            $(this).text('Show Quote');
+            $('#quote-7').fadeToggle( "slow" );
+        } else {
+            $(this).text("Hide Quote");
+            $('#quote-7').fadeToggle( "slow" );
         }
     });
 });
